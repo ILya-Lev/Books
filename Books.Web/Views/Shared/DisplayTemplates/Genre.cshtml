@@ -1,0 +1,8 @@
+﻿@using Books.Entities
+@using Books.Web.Helpers
+
+@{
+	var name = typeof(Genre).GetDisplayName((int?) Model);
+}
+
+@name
